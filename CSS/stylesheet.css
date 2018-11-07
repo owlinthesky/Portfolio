@@ -1,0 +1,87 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color:white; /*body of the whole website*/
+font-family: 'Lora', serif;
+	overflow:hidden;
+	margin:0px;
+	padding:0px;
+}
+.background
+{
+	display:none;
+}
+.backgroundMobile
+{
+	display:contents;
+	display: block;
+	margin-bottom: 50%;
+	margin-top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.Title
+{
+	display: none;
+}
+@media only screen and (min-width: 768px) {
+	
+	body {
+	background-color: black; /*body of the whole website*/
+
+}
+	.backgroundMobile{
+		display:none;
+	}
+.background
+{ display:contents;
+	position:relative;
+    left:0px;
+	top:0;
+	
+
+}
+.Title
+{
+
+	
+}
+a:link, .Title {
+    text-decoration: none;
+	margin:20px;
+			text-align: right;
+	position: fixed;
+    bottom: 0;
+    right: 0;
+	color:white;
+	font-size:50px;
+}
+
+a:hover {
+    color:#E292CC;
+}
+/*.fa {
+	 width: 65px;
+    padding: 20px;
+	text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+	
+	display:block;
+	  border-radius: 50%;
+	
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #67fcf4 ;
+  color: white;
+	
+
+}*/
+}
