@@ -16,7 +16,7 @@ font-family: 'Lora', serif;
 }
 .backgroundMobile
 {
-	display:contents;
+	
 	display: block;
 	margin-bottom: 50%;
 	margin-top: 30%;
@@ -26,8 +26,52 @@ font-family: 'Lora', serif;
 }
 .Title
 {
-	display: none;
+	display:none;
 }
+
+.Bandnav
+{
+	position:relative;
+	width:100%;
+}
+/******************/
+p {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0 0 18px;
+}
+
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+/*@media (min-width: 500px)*/ 
+  h1 {
+    font-size: 60px;
+    line-height: 64px;
+  }
+
+
+h3 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+article {
+  padding: 24px;
+  max-width: 600px;
+  margin: 60px auto;
+  transition: 0.2s ease-out;
+}
+
+
+
 @media only screen and (min-width: 768px) {
 	
 	body {
@@ -37,51 +81,61 @@ font-family: 'Lora', serif;
 	.backgroundMobile{
 		display:none;
 	}
-.background
-{ display:contents;
-	position:relative;
-    left:0px;
-	top:0;
-	
 
-}
-.Title
-{
 
-	
-}
-a:link, .Title {
-    text-decoration: none;
-	margin:20px;
-			text-align: right;
-	position: fixed;
-    bottom: 0;
-    right: 0;
-	color:white;
-	font-size:50px;
-}
-
-a:hover {
-    color:#E292CC;
-}
-/*.fa {
-	 width: 65px;
-    padding: 20px;
-	text-align: center;
-    font-size: 30px;
-    text-decoration: none;
-	
+.Imagecontainer {
+  
+    width:55%;
 	display:block;
-	  border-radius: 50%;
-	
+    color: black;
 }
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-facebook {
-  background: #67fcf4 ;
-  color: white;
-	
 
-}*/
+a:link
+	{
+		  text-decoration: none;
+	color:white;
+	}
+	
+	.Title {
+	display:contents;
+text-align: right;
+		
+	font-size:40px;
+		
+}
+
+	p {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0 0 18px;
+}
+
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 44px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+/*@media (min-width: 500px)*/ 
+  h1 {
+    font-size: 60px;
+    line-height: 64px;
+  }
+
+
+h3 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+article {
+  padding: 24px;
+  max-width: 600px;
+  margin: 60px auto;
+  transition: 0.2s ease-out;
+}
 }
